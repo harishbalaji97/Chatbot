@@ -16,7 +16,7 @@ if os.path.exists(BRAIN_FILE):
 else:
     print("Parsing aiml files")
     k.bootstrap(learnFiles="std-startup.aiml", commands="load aiml b")
-    print("Saving brain file: " + BRAIN_FILE)
+    print("Saving brain file: to local " + BRAIN_FILE)
     k.saveBrain(BRAIN_FILE)
 from tkinter import *
 from tkinter.messagebox import *

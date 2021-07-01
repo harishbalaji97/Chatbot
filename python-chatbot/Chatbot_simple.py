@@ -2,7 +2,7 @@ import os
 import aiml
 
 BRAIN_FILE="brain.dump"
-
+## hyk ky yo ou puu
 k = aiml.Kernel()
 
 if os.path.exists(BRAIN_FILE):
